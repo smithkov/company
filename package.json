@@ -1,0 +1,28 @@
+{
+  "name": "softnergy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "nnamdi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "email-templates": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "handlebars-dateformat": "^1.1.1",
+    "hbs": "^4.0.1",
+    "mongodb": "*",
+    "mongoose": "*",
+    "nodemailer": "^4.6.8"
+  },
+  "engine": {
+    "node": "8.11.3"
+  }
+}
