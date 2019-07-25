@@ -9,11 +9,13 @@ var mongoose = require('mongoose');
 // var db = mongoose.connection;
 
 var routes = require('./routes/index');
-
+var favicon = require('serve-favicon');
 // Init App
 var app = express();
 
 // View Engine
+app.use(favicon(path.join(__dirname, '/public/content/images/', 'fav.png')))
+//app.use(express.favicon(__dirname + '/public/images/fav.png'));
 app.set('views', path.join(__dirname, 'views'));
 app.engine('handlebars', exphbs({defaultLayout:'layout'}));
 app.set('view engine', 'handlebars');

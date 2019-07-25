@@ -72,7 +72,7 @@
 
       <div class="row-fluid">
 
-        <div class="span3 chart_skill animate_onoffset"><div class="chart" data-percent="96%">96</div><span class="new_color">#009dcd</span><h4>Web Developemtn</h4><p></p></div>
+        <div class="span3 chart_skill animate_onoffset"><div class="chart" data-percent="96%">96</div><span class="new_color">#009dcd</span><h4>Web Development</h4><p></p></div>
 
         <div class="span3 chart_skill animate_onoffset"><div class="chart" data-percent="97%">97</div><span class="new_color">#009dcd</span><h4>Mobile Development</h4><p></p></div>
 
@@ -145,3 +145,18 @@
 
 <!-- Footer -->
 </div>
+
+<script>
+  jQuery(document).ready(function ($) {
+    var homeMenu = $("#home_menu");
+    var aboutMenu = $("#about_menu");
+    var serviceMenu = $("#service_menu");
+    var contactMenu = $("#contact_menu");
+
+    homeMenu.removeClass("current-menu-item");
+    aboutMenu.removeClass("current-menu-item");
+    serviceMenu.addClass("current-menu-item");
+    contactMenu.removeClass("current-menu-item");
+  })
+
+</script>

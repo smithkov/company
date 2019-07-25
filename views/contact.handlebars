@@ -1,6 +1,6 @@
 <div class="top_wrapper">
 
-  
+
     <!-- .header -->
   <section id="content" class="page-dynamic_template-contactpa sequentialchildren section_first ">
                     <div class="row-fluid">
@@ -41,3 +41,17 @@
 
 <!-- Footer -->
     </div>
+    <script>
+      jQuery(document).ready(function ($) {
+        var homeMenu = $("#home_menu");
+        var aboutMenu = $("#about_menu");
+        var serviceMenu = $("#service_menu");
+        var contactMenu = $("#contact_menu");
+        
+        homeMenu.removeClass("current-menu-item");
+        aboutMenu.removeClass("current-menu-item");
+        serviceMenu.removeClass("current-menu-item");
+        contactMenu.addClass("current-menu-item");
+      })
+
+    </script>

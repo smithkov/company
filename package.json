@@ -20,7 +20,8 @@
     "hbs": "^4.0.1",
     "mongodb": "*",
     "mongoose": "*",
-    "nodemailer": "^4.6.8"
+    "nodemailer": "^4.6.8",
+    "serve-favicon": "^2.5.0"
   },
   "engine": {
     "node": "8.11.3"
